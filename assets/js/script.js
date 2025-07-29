@@ -161,3 +161,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+// Alert for viewing the actaul Design
+function confirmRedirect() {
+    if (confirm("Do you want to view the actual design on GitHub?")) {
+      window.open("https://github.com/Asha-Mersanio/Design-Works", "_blank");
+    }
+  }
